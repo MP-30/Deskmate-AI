@@ -1,7 +1,0 @@
-pydantic>=2.10
-pydantic-ai>=0.0.36
-
-ShopifyAPI>=12.7.0
-anthropic>=0.49.0
-
-python-dotenv>=1.0.1
