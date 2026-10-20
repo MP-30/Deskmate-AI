@@ -1,0 +1,1 @@
+Deskmate, an AI support desk for a made-up gadget store
