@@ -7,7 +7,9 @@ authors = [
     { name = "Aditya Bhadauriya", email = "adityabhadauriya93@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.156.0",
+]
 
 [project.scripts]
 pydantic-ai-project = "pydantic_ai_project:main"
@@ -15,3 +17,10 @@ pydantic-ai-project = "pydantic_ai_project:main"
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
